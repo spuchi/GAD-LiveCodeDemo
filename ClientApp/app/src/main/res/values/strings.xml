@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LiveDemoApp</string>
+
+    <string name="mock_taskTitle">My Sample Task Title</string>
+    <string name="mock_taskDescription">My Sample Task Description</string>
+</resources>
