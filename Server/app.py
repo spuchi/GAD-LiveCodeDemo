@@ -11,3 +11,7 @@ def demo_call():
 @app.route("/tasks")
 def get_all_todos():
     return json.dumps(todo_store)
+
+@app.route("/check")
+def healthcheck():
+    return "Server is running!"
